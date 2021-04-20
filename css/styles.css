@@ -1,0 +1,67 @@
+body {
+  font-family: "DM Sans", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "DM Sans", sans-serif; }
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+header h2 {
+  color: #60106b; }
+
+header a {
+  margin-right: 35px; }
+
+header .navbar {
+  background-color: #fff; }
+
+.body-content .row {
+  height: 650px; }
+
+.body-content .black-bg {
+  background-color: #000; }
+
+.body-content .signup-bg-image {
+  background-image: url("../img/photographer-pier.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-color: #5637dd; }
+
+.body-content .stories-bg-image {
+  background-image: url("../img/laptop-office.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-color: #5637dd; }
+
+.body-content .features-bg-image {
+  background-image: url("../img/director.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-color: #5637dd; }
+
+.body-content .content-block {
+  padding-left: 75px; }
+
+.body-content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 70%; }
+
+.body-content p {
+  font-size: 15px;
+  width: 70%; }
+
+.body-content a {
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.body-content img {
+  margin-left: 18px; }

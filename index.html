@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- https://github.com/ajrtinez/photosnap -->
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+         <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <title>Photosnap Photosharing For All</title>
+
+        <!-- GitHub link to repo info: https://github.com/ajrtinez/photosnap -->
+
     </head>
+    
 	<body>
-		<h1>This is a Header</h1>
-        <p>This is a paragraph</p>
-        <p>This is another paragraph</p>
-        <p>Last paragraph test for Git</p>
-        <p>I lied one last test commit, again.</p>
+        <!-- Navigation -->
+	    <header>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/Photosnap-logo.svg" alt="Photosnap Logo"></a>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#photosnapNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="photosnapNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#">Stories</a></li>
+                            <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                        </ul>
+                        <span class="navbar-text ml-auto">
+                            <a class="btn btn-large btn-dark text-white" id="loginButton" role="button">Log In</a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Log-in Modal-->
+            <div id="loginModal" class="modal fade" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Login</h3>
+                            <button type="button" class="close" data-dismiss="modal">&times; </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginEmail">Email address </label>
+                                            <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                        </div>
+                                        <div class="form-group col-12">
+                                            <label class="sr-only" for="loginPassword">Password </label>
+                                            <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox">
+                                                <label class="form-check-label">Remember me</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <button type="button" class="btn btn-outline-dark btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-dark btn-sm ml-1">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <!-- Main body content -->
+    <div class="container-fluid body-content">
+
+        <!-- Sign up Section-->
+        <div class="row black-bg">
+            <div class="col text-white align-self-center ml-auto content-block">
+                <h3>Create and Share Your Photo Stories</h3>
+                <p class="mt-4 mb-4">Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
+                <a href="#">Sign Up<img src="img/arrow-white.svg" alt="Arrow"></a>
+            </div>
+            <div class="signup-bg-image col-md-4 col-lg-7"></div>
+        </div>
+        <!-- Stories section -->
+        <div class="row">
+            <div class="stories-bg-image col-md-4 col-lg-7"></div>
+            <div class="col text-black align-self-center ml-auto content-block">
+                <h3>Beautiful stories every time</h3>
+                <p class="mt-4 mb-4">We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
+                <a href="#">View the stories<img src="img/arrow-black.svg" alt="Arrow"></a>
+            </div> 
+        </div>
+        <!-- Features section -->
+        <div class="row">
+            <div class="col text-black align-self-center ml-auto content-block">
+                <h3>Powerful features for design</h3>
+                <p class="mt-4 mb-4">Our tool is designed for photographers of all levels, brands, businesses you name it.</p>
+                <a href="#">See the features<img src="img/arrow-black.svg" alt="Arrow"></a>
+            </div> 
+            <div class="features-bg-image col-md-4 col-lg-7"></div>
+        </div>
+
+    </div>
+
+        <footer>
+
+        </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->    
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
 	</body>
 </html>
