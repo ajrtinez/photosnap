@@ -1,7 +1,7 @@
 body {
   font-family: "DM Sans", sans-serif; }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: "DM Sans", sans-serif; }
 
 a, a:hover {
@@ -27,22 +27,19 @@ header .navbar {
   background-image: url("../img/photographer-pier.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
-  background-color: #5637dd; }
+  background-position-x: center; }
 
 .body-content .stories-bg-image {
   background-image: url("../img/laptop-office.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
-  background-color: #5637dd; }
+  background-position-x: center; }
 
 .body-content .features-bg-image {
   background-image: url("../img/director.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
-  background-color: #5637dd; }
+  background-position-x: center; }
 
 .body-content .content-block {
   padding-left: 75px; }
@@ -65,3 +62,48 @@ header .navbar {
 
 .body-content img {
   margin-left: 18px; }
+
+.featured-stories-content .featured-stories {
+  height: 500px; }
+
+.featured-stories-content h5 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px; }
+
+.featured-stories-content p {
+  font-size: 13px;
+  letter-spacing: .5px; }
+
+.featured-stories-content .divider {
+  width: 90%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px; }
+
+.featured-stories-content img {
+  margin-left: 130px; }
+
+.featured-stories-content .featured-1 {
+  background-image: url("../img/mountain.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+
+.featured-stories-content .featured-2 {
+  background-image: url("../img/city.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+
+.featured-stories-content .featured-3 {
+  background-image: url("../img/silhouette.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+
+.featured-stories-content .featured-4 {
+  background-image: url("../img/architecture.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
