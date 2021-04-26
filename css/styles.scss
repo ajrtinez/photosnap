@@ -23,6 +23,12 @@ a, a:hover {
     text-decoration: none;
 }
 
+ul {
+    li {
+        text-decoration: none;
+    }
+}
+
 header {
     h2 {
         color: $color-dark;
@@ -158,6 +164,27 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position-x: center;
+    }
+}
+
+.features-section-home {
+    padding: 120px 0 120px 0;
+
+
+}
+
+footer {
+    background-color: #000;
+    padding: 130px 0 130px 0;
+
+    .photosnap-logo-white {
+        padding-bottom: 85px;
+    }
+
+    .social-block {
+        img {
+            padding: 0 8px 0 0;
+        }
     }
 }
 
